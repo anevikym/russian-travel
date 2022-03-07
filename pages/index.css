@@ -33,3 +33,7 @@
     font-style: normal;
     font-weight: 900;
 }
+
+
+@import url(../vendor/normalize.css);
+
