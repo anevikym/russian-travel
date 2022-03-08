@@ -1,4 +1,35 @@
 .cover__overlay {
-
-    
-}
+    text-decoration: none;
+    max-width: 1184px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cover__overlay::before {
+    content: "";
+    background: #2A2C2F;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .cover__overlay:hover::before {
+    opacity: 0.6;
+  }
+  
+  .cover__overlay:link {
+    color: #FFFFFF;
+  }
+  
+  .cover__overlay:visited {
+    color: #FFFFFF;
+  }
+  

@@ -1,13 +1,14 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-top: 27px;
-    margin: 0 auto 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 28px;
+  margin: 0 auto 56px;
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    padding-top: 16px;
+    margin: 0 16px;
   }
-  
-  @media screen and (max-width: 320px) {
-    .header {
-      padding-top: 16px;
-    }
 }

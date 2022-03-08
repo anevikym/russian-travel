@@ -1,4 +1,15 @@
 .footer__url {
+    display: inline-block;
+    margin-right: 15px;
+}
 
-    
+.footer__url:last-child {
+    margin-right: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .footer__url {
+        display: block;
+        margin-bottom: 22px;
+    }
 }

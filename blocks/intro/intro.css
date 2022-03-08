@@ -1,4 +1,11 @@
 .intro {
+    max-width: 690px;
+    margin: 0 100px;
+    padding-bottom: 102px;
+}
 
-    
+@media (max-width: 768px) {
+    .intro {
+        margin-bottom: 97px;
+    }
 }
