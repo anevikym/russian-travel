@@ -17,10 +17,8 @@
 }
 
 @media screen and (max-width: 767px) {
-
   .header__lang {
-    font-size: 18px;
-    line-height: 1.1;
+      font-size: 18px;
+      line-height: 1.1;
   }
-  
 }

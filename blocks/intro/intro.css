@@ -4,7 +4,7 @@
     padding: 92px 0;
 }
 
- @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .intro {
         max-width: calc(976px - 48px);
     }
@@ -14,13 +14,14 @@
     .intro {
         padding: 88px 0;
         max-width: 720px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 }
-
 
 @media screen and (max-width: 320px) {
     .intro {
         padding: 64px 0;
         max-width: 288px;
     }
-} 
+}

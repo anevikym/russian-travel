@@ -7,10 +7,16 @@
     text-align: right;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .footer__copyright {
-        max-width: 190px;
-        text-align: end;
+        min-width: 198px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copyright {
+        text-align: left;
+        min-width: 198px;
     }
 }
 

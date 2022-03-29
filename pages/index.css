@@ -1,3 +1,5 @@
+/* Марина, спасибо большое за код-ревью! 👍🏻 Форматировала с помощью ctrl+c ctrl+v и https://webformatter.com/html */
+
 /* Vendor */
 
 @import url(../vendor/normalize.css);
@@ -7,7 +9,6 @@
 
 @import url(../blocks/page/page.css);
 @import url(../blocks/link/link.css);
-@import url(../blocks/main/main.css);
 
 /* Header */
 
@@ -16,7 +17,6 @@
 @import url(../blocks/header/__lang/header__lang.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang/_active/header__lang_active.css);
-
 
 /* Lead */
 
@@ -37,12 +37,10 @@
 @import url(../blocks/intro/__fact/intro__fact.css);
 @import url(../blocks/intro/__accent/intro__accent.css);
 
-
 /* Photo-grid */
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-
 
 /* Places */
 
@@ -55,7 +53,6 @@
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
-
 /* Cover */
 
 @import url(../blocks/cover/cover.css);
@@ -64,7 +61,6 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__overlay/cover__overlay.css);
 
-
 /* Footer */
 
 @import url(../blocks/footer/footer.css);
@@ -72,3 +68,4 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__url/footer__url.css);

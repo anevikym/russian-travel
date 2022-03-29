@@ -7,8 +7,8 @@
 
 @media screen and (max-width: 768px) {
     .footer {
-    padding: 0 24px 24px;
-    margin-top: 90px;
+        padding: 0 24px 24px;
+        margin-top: 90px;
     }
 }
 
@@ -17,5 +17,12 @@
         flex-flow: column nowrap;
         row-gap: 48px;
         margin-top: 97px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        max-width: 186px;
+        padding-right: 0;
     }
 }
