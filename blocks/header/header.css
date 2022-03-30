@@ -6,13 +6,12 @@
   padding-bottom: 56px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-self: center;
 }
 
 @media screen and (max-width: 1279px) {
   .header {
       margin: 28px 24px 48px;
-      align-self: center;
       padding-bottom: 0;
   }
 }
@@ -20,6 +19,7 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .header {
       max-width: 928px;
+      margin: 0 48px 48px;
   }
 }
 

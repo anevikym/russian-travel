@@ -7,20 +7,7 @@
     text-align: right;
 }
 
-@media screen and (min-width: 768px) {
-    .footer__copyright {
-        min-width: 198px;
-    }
-}
-
 @media screen and (max-width: 767px) {
-    .footer__copyright {
-        text-align: left;
-        min-width: 198px;
-    }
-}
-
-@media screen and (max-width: 320px) {
     .footer__copyright {
         text-align: left;
     }

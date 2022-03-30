@@ -1,10 +1,12 @@
 .header__lang {
+  display: flex;
   text-decoration: none;
   color: #fff;
   font-size: 24px;
   font-weight: normal;
   line-height: 28px;
   transition: opacity 0.5s ease-in-out;
+  justify-content: end;
 }
 
 .header__lang:last-child {
